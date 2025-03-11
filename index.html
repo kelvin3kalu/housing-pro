@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+    <title>Document</title>
+</head>
+<style>
+    .nav-bar{
+        background-color: white;
+        display: flex;
+        gap: 200px;
+    }
+    .nav-bar ul{
+        float: left;
+    }
+    .nav-bar a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+    .container{
+        text-align: center;
+    }
+    .container h1{
+        font-size: 5rem;
+
+    }
+
+    .landlord{
+    height: 40px;
+    width: 120px;
+    background-color: orangered;
+    border: 1px solid orangered;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+    .landlord:hover{
+    color: orangered;
+    background-color: white;
+    }
+    .link{
+        align-content: right;
+    }
+    .tenant{
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 10px;
+    }
+    .tenant:hover{
+    color: white;
+    background-color: black;
+    }
+    .butto{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+    }
+    .playstore{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        height: 50px;
+        width: 150px;
+        cursor: pointer;
+    }
+    .applestore{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        height: 50px;
+        width: 150px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="home">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="links">
+                <a href="landlordsign.html"><button class="landlord">Sign in as a Landlord</button></a>
+                <a href="tenantsign.html"><button class="tenant">Sign in as a Tenant</button></a>
+            </div>
+        </div>
+    </header>
+    <hr >
+    <div class="container">
+        <h1>Welcome to <span>housing</span> Website</h1>
+        <p>A Website you can use to Advertise your house as a Landlord, and to find a place to live</p>
+        <p>You can download our app from Andriod Playstore or Apple Appstore.Just click the button below</p>
+        <div class="butto">
+            <div class="play">
+                <a href="https://play.google.com/store/games?device=windows"><button class="playstore"><!--<img src="playstore.png" alt="">-->Download from playstore</button></a>
+            </div>
+            <div class="apple">
+                <a href="http://applestore.com"><button class="applestore"><!--<img src="icons8-apple-48.png" alt="">-->Download from Apple Store</button></a></div>
+            </div>
+
+    </div>
+
+</body>
+</html>
